@@ -1,0 +1,103 @@
+body{
+    overflow-x: hidden;
+    font-family: 'poppins',sans-serif;
+    margin: 0;
+}
+.text_saldo{
+    color: var(--color-orange);
+}
+.btn-transaksi{
+    background-color: var(--color-green);
+}
+  /* nav */
+  .nav-link{
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: #1DA599 !important;
+}
+.dropdown-item:hover{
+    background-color: #1DA599 !important;
+    color: #f1f1f1;
+}
+.dropdown > a:focus {
+    border:none;
+    outline: none;
+}
+.active-navbar{
+    color: #1DA599;
+    font-weight: 600;
+}
+/* breadcrumbs */
+.breadcrumb-item > a{
+    text-decoration: none !important;
+    color: #454545;
+    font-weight: 500;
+}
+.breadcrumb-item{
+    font-weight: 500;
+    color: #454545;
+}
+.breadcrumb-item.active{
+    background-color: transparent !important;
+}
+.section_keterangan{
+    border-bottom: 3px dashed silver;
+}
+thead { 
+    border-radius: 10px;
+}
+thead > tr > td {
+    background-color: #f1f1f1 !important;
+    font-weight: 500;
+    /* border: 2px solid rgba(122, 122, 122, 0.075); */
+}
+tr > td{
+    border: 1px solid rgba(122, 122, 122, 0.075);
+}
+.table{
+    height: max-content;
+}
+.section_notFound{
+    border: 3px dashed silver;
+    height: 25vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-hover:hover{
+    background-color: #d3e6f8 !important;
+    box-shadow: 0px 2px 0px black opacity 1 ;
+}
+/* pagination */
+.pagination{
+    display: flex;
+    gap: 10px;
+    margin-top: 1em;
+}
+.page-link{
+    background-color: transparent !important;
+    border: none;
+    text-decoration: none;
+    color:#454545;
+}
+.active {
+    border-radius: 5px;
+    text-align: center;
+    background-color: #1DA599 !important;
+    text-decoration: none;
+    outline: none !important;
+    border: none !important;
+    color:#f1f1f1;
+}
+/* accordion */
+.accordion-button:not(.collapsed){
+    background-color:#1DA599 !important;
+    color: #f1f1f1;
+}
+.accordion-button:focus{
+    background-color: #1DA599 !important;
+    color:#f1f1f1;
+}

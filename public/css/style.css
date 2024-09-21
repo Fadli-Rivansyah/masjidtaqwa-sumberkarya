@@ -1,0 +1,281 @@
+:root{
+    --color-green:#1DA599;
+    --color-orange:#FFC265;
+    --color-red:#E42C2C;
+    --color-table:#615E83;
+    --bg-black:#454545;
+    --font-color:#1F262E;
+    --text-description:#B1B1B1;
+    --bg-color:#F9F8F6;
+    --border:10px;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'poppins',sans-serif;
+ color:rgb(70, 70, 70);
+}
+main{
+    overflow-x: hidden;
+}
+/* container first */
+.section-first{
+    overflow-x: hidden;
+    background-color:var(--bg-color);
+}
+/* navbar */
+.container_navbar{
+        background-color:var(--bg-color);
+}
+.navbar-brand{
+    color: var(--color-green);
+}
+.navbar-brand:hover{
+    color: var(--color-green);
+}
+.nav-link{
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    color:var(--font-color);
+}
+.nav-link:hover{
+    color:#1DA599;
+}
+/* jumbotron */
+.text_header{
+    text-transform: capitalize;
+    color:var(--font-color);
+    font-family: 'inter', sans-serif;
+    font-weight: 900;
+    /* font-size: 3em; */
+}
+.nav-link-jumbotron{
+    background-color: var(--color-orange);
+    color: white;
+    text-decoration: none;
+    padding:10px;
+    border-radius: var(--border);
+    padding-top: 10px;
+    width: max-content;
+}
+.text_description{
+    color: var(--text-description);
+    font-size: 15px;
+    margin: 2em 0em;
+    font-family: 'poppins';
+}
+.img_jumbotron {
+    width: 850px;
+    height: 500px;
+}
+/* section total */
+.container_total{
+    background: rgb(29,29,29);
+    background: linear-gradient(66deg, rgba(29,29,29,1) 37%, rgba(69,69,69,1) 79%);
+    border-radius: var(--border);
+    color:white;
+    transform: translateY(-2.5em);
+}
+.section_total{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.count{
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+}
+/* menu */
+.active{
+    background-color: var(--color-green) !important;
+}
+/*  infaq masjid*/
+.section-date > span{
+    background-color: var(--color-orange);
+    font-size: 1rem;
+    font-weight: 800;
+    width: max-content;
+    padding:5px;
+    border-radius: var(--border);
+}
+.img_infaqMasjid{
+    width: 400px;
+    height: 300px;
+    border-radius: var(--border);
+}
+/* table */
+table{
+    overflow-x: scroll;
+}
+/* section data tidak ada */
+.section_notFound{
+    border: 3px dashed silver;
+    height: 20vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0em;
+    flex-direction: column;
+}
+/* pagination infaq masjid */
+.page-item > a{
+    color:var(--color-green);
+    border:none;
+    background-color: transparent;
+    outline: none;
+    margin: 0 1em;
+    text-align: center;
+}
+.font-color-green{
+    color: var(--color-green);
+}
+.font-color-orange{
+    color: var(--color-orange);
+}
+.image-inside-masjid{
+    width: 100%;
+    height: 200;
+}
+/* container program dan layanan */
+.container_programLayanan{
+    overflow-x: hidden;
+    /* background-color: var(--bg-black); */
+    color: white;
+    /* padding: 2em 1em; */
+    transform: translateY(10px);
+}
+.section_card_gender{
+    width: max-content;
+    padding: 3px 4px;
+    font-size: .3rem;
+    color: white;
+    text-align: center;
+    border-radius: var(--border);
+}
+.section_card_orange{
+    top: 5px;
+    right: 0;
+    position: absolute;
+    padding: 3px 5px;
+    background-color: var(--color-orange);
+    color: white;
+    text-align: center;
+    float: right;
+    border-radius: var(--border);
+}
+/* table */
+/* thead > tr { 
+    border:0px  !important;
+    border-radius:10px !important;
+    border-bottom:none !important;
+} */
+
+thead > tr > th {
+    font-size: 0.9rem;
+    font-weight: 500 !important;
+    color:rgb(70, 70, 70) !important;
+    background-color: #11635c27 !important;
+}
+td{
+    padding: 1em 0.5em !important;
+    color:rgb(70, 70, 70) !important;
+}
+
+/* pagination */
+.pagination{
+    display: flex;
+    gap: 10px;
+    margin-top: 1em;
+}
+.page-link{
+    background-color: transparent !important;
+    border: none;
+    text-decoration: none;
+    color:#454545;
+}
+.active {
+    border-radius: 5px;
+    text-align: center;
+    background-color: #1DA599 !important;
+    text-decoration: none;
+    outline: none !important;
+    border: none !important;
+    color:#f1f1f1;
+}
+.card:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;;
+}
+.box_aktivitas{
+    font-family: 'poppins', sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: max-content;
+    background-color :var(--bg-black);
+    opacity: 0.8;
+    color: white;
+    border-radius: var(--border);
+    text-align: center;
+    text-transform: capitalize;
+}
+.waves_img{
+    position: absolute;
+    top: 32%;
+}
+/* footer */
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: var(--bg-black);
+    padding: 20px;
+    color: white;
+}
+.section_footer > li{
+    margin-top: 10px;    
+}
+  /* tabs */
+.tab_btn{
+    border:none;
+    background-color: transparent;
+    color:#454545
+}
+.tab_box .tab_btn.active-menu{
+    color: #1DA599;
+}
+.conent_box{
+    padding: 20px;
+}
+.content_box .content,  .box-content-zakat .content_zakat{
+    display: none;
+}
+.content_box .content.active-menu{
+    display: block;
+}
+.content_box .content h2{
+    margin-bottom: 10px;
+}
+/* tabs zakat */
+.box-content-zakat .content_zakat.active-content-zakat{
+    display: block;
+}
+.tab-btn-zakat{
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    font-weight: 600;
+}
+.tab-btn-zakat.active-content-zakat{
+    border-bottom: 3px solid #1DA599;
+    color: #1DA599;
+}
+/* GAS */
+.program_gas{
+    border-radius: var(--border);
+    padding: 20px;
+}
+.jumlah_gas{
+    padding: 10px;
+    /* width: max-content; */
+}
